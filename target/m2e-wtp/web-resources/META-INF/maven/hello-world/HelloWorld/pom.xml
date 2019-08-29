@@ -5,6 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
    <distributionManagement>
+   <repository>
+    <id>maven-releases</id>
+      <url>http://localhost:8081/repository/maven-releases/</url>
+   </repository>
     <snapshotRepository>
       <id>JDBCSnap</id>
       <url>http://localhost:8081/repository/JDBCSnap/</url>
