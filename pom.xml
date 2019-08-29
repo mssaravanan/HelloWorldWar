@@ -4,6 +4,18 @@
   <artifactId>HelloWorld</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+   <distributionManagement>
+    <snapshotRepository>
+      <id>JDBCSnap</id>
+      <url>http://localhost:8081/repository/JDBCSnap/</url>
+    </snapshotRepository>
+    </distributionManagement>
+    <repositories>
+    <repository>
+      <id>maven-public</id>
+      <url>http://localhost:8081/repository/maven-public/</url>
+    </repository>
+  </repositories>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
