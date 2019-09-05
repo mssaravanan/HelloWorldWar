@@ -54,7 +54,7 @@ under the License.
     <mirror>
       <id>maven-public</id>
       <name>maven-public</name>
-       <url>http://localhost:8081/repository/maven-public/</url>
+       <url>http://192.168.0.50/repository/maven-public/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
